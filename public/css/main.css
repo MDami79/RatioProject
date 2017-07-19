@@ -1,0 +1,45 @@
+html, body, #map{
+  height:100%;
+  margin: 0px;
+  padding: 0px
+}
+#mapArea{position: relative;width: 1300px; height: 1200px; margin: auto;}
+#map{
+  float:left;
+  width: 800px;
+  border: 10px #fff solid;
+  margin: auto;
+}
+#listing {
+   right:100px;
+    float: right;
+    width: 400px;
+    position: absolute;
+}
+#searchArea{
+  margin: auto;
+  width: 800px;
+  margin-top:100px;
+  text-align: center;
+}
+#searchArea h1{color:#fff}
+#city-input{
+  z-index: 2;
+}
+#findClubs h3{
+  color:#a864a8;
+}
+.form-control{margin-bottom: 10px}
+#app-content{
+  margin:auto;
+  background:url(/img/futuristic-fractal-design.jpg);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+
+}
